@@ -16,5 +16,5 @@ strNumber = strNumber +" "+ numberArray1_19[number];
 } else {
 strNumber = strNumber +" "+ numberArray20[num] +" "+numberArray1_19[(number%10)];
 }
-  return strNumber;
+  return strNumber.trim();
 }
